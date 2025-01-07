@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_splash_screen"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_splash_screen">
+
+  <TextView
+    android:id="@+id/txt_cipat_u"
+    android:layout_width="wrap_content"
+    android:layout_height="49dp"
+    android:layout_marginLeft="134.5dp"
+    android:layout_marginTop="434.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="CipatU"
+    android:textColor="#FF0000"
+    android:textSize="40dp" />
+  
+  <TextView
+    android:id="@+id/txt_welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="49dp"
+    android:layout_marginLeft="107dp"
+    android:layout_marginTop="360dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Welcome"
+    android:textColor="#FF000000"
+    android:textSize="40dp" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line1"
+    android:layout_width="69.58dp"
+    android:layout_height="69.58dp"
+    android:layout_marginLeft="47dp"
+    android:layout_marginTop="23dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line1" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line2"
+    android:layout_width="68.53dp"
+    android:layout_height="68.53dp"
+    android:layout_marginLeft="39dp"
+    android:layout_marginTop="192dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line2" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line3"
+    android:layout_width="69.58dp"
+    android:layout_height="69.58dp"
+    android:layout_marginLeft="167dp"
+    android:layout_marginTop="122dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line3" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line4"
+    android:layout_width="61.84dp"
+    android:layout_height="61.84dp"
+    android:layout_marginLeft="162.34dp"
+    android:layout_marginTop="709.34dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line4" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line5"
+    android:layout_width="70.65dp"
+    android:layout_height="70.65dp"
+    android:layout_marginLeft="287dp"
+    android:layout_marginTop="69dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line5" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line6"
+    android:layout_width="69.61dp"
+    android:layout_height="69.61dp"
+    android:layout_marginLeft="292dp"
+    android:layout_marginTop="274dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line6" />
+  
+  <ImageView
+    android:id="@+id/img_shoe_line7"
+    android:layout_width="51.47dp"
+    android:layout_height="51.47dp"
+    android:layout_marginLeft="77.53dp"
+    android:layout_marginTop="555.06dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_shoe_line7" />
+
+  <ImageView
+      android:id="@+id/img_shoe_line8"
+      android:layout_width="52.13dp"
+      android:layout_height="52.13dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="50.2dp"
+      android:layout_marginTop="770.2dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_shoe_line8" />
+
+  <ImageView
+      android:id="@+id/img_shoe_line9"
+      android:layout_width="65.57dp"
+      android:layout_height="65.57dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="271.48dp"
+      android:layout_marginTop="570.01dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_shoe_line9" />
+
+  <ImageView
+      android:id="@+id/img_shoe_line10"
+      android:layout_width="68.09dp"
+      android:layout_height="68.09dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="300dp"
+      android:layout_marginTop="750dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_shoe_line10" />
+</FrameLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="917dp"
+    android:background="@drawable/drawable_shape">
+
+  <TextView
+      android:id="@+id/titleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Buat Akun!"
+      android:textColor="#FF0000"
+      android:textSize="32dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.169" />
+
+  <ImageView
+      android:id="@+id/usernameImageView"
+      android:layout_width="329dp"
+      android:layout_height="53.5dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.487"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.32" />
+
+  <ImageView
+      android:id="@+id/passwordImageView"
+      android:layout_width="329dp"
+      android:layout_height="53.5dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image"
+      app:layout_constraintBottom_toTopOf="@+id/emailImageView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.487"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/passwordLabel"
+      app:layout_constraintVertical_bias="0.077" />
+
+  <ImageView
+      android:id="@+id/emailImageView"
+      android:layout_width="329dp"
+      android:layout_height="53.5dp"
+      android:layout_marginTop="476dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.487"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/usernameLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="240dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Masukkan Username"
+      android:textColor="#FF0000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/passwordLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="8dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Masukkan Password"
+      android:textColor="#FF0000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+  <TextView
+      android:id="@+id/emailLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="21dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="436dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Masukkan Email"
+      android:textColor="#FF0000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/editTextTextPersonName"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_marginStart="64dp"
+      android:layout_marginTop="280dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Username Baru"
+      android:textColor="#FF000000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/editTextTextPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_marginStart="64dp"
+      android:layout_marginTop="372dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Password Baru"
+      android:textColor="#FF000000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/editTextTextEmailAddress"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_marginStart="72dp"
+      android:layout_marginTop="476dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Email Baru"
+      android:textColor="#FF000000"
+      android:textSize="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageButton
+      android:id="@+id/imageButton_register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="94dp"
+      android:layout_marginEnd="94dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.654"
+      app:srcCompat="@drawable/drawable_image_2" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:textColor="@color/white"
+      android:textSize="25dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imageButton_register"
+      app:layout_constraintEnd_toEndOf="@+id/imageButton_register"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="@+id/imageButton_register"
+      app:layout_constraintTop_toTopOf="@+id/imageButton_register" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
