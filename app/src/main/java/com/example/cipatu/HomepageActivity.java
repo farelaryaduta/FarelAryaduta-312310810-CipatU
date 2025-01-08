@@ -19,15 +19,15 @@ public class HomepageActivity extends AppCompatActivity {
 
 // Set onClickListener for the pickup button
         pickupButton.setOnClickListener(v -> {
-            // Create an intent to navigate to OrderActivity for pickup
+            // Create an intent to navigate to HomepageActivity for pickup
             Intent intent = new Intent(HomepageActivity.this, OrderActivity.class);
             intent.putExtra("orderType", "pickup");
             startActivity(intent);
         });
 
-// Set onClickListener for the order button
+// Set onClickListener for the Delivery button
         orderButton.setOnClickListener(v -> {
-            // Create an intent to navigate to OrderActivity for delivery
+            // Create an intent to navigate to HomepageActivity for delivery
             Intent intent = new Intent(HomepageActivity.this, OrderActivity.class);
             intent.putExtra("orderType", "delivery");
             startActivity(intent);
